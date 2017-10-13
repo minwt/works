@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+	<head>
+		<title>梅干商品攝影集</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="lib/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<!-- HTML5 shim 和 Respond.js 讓IE8支援HTML5元素和媒體查詢 -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<h1><a href="index.html">梅干Minggo Zhou</a></h1>
+							<p>
+						<h2><a href="about.html" class="active">關於梅</a></h2>
+						<h2>作品</h2>
+						<a href="index.html">相機攝影</a>
+						<a href="mobile.html">手機攝影</a><br>
+						
+						<h2>設備</h2>
+						燈具：Broncolor Siros <br>
+						相機：Fuji X-T1<br>
+						手機：iPhone6<br><br>
+						<br>
+						<h2>聯絡梅</h2>
+						<a href="https://www.minwt.com/contact">minwto@gmail.com</a>
+					</p>
+		
+
+				</div>
+				<div class="col-sm-10">
+					<img src="minwt.jpg" alt="">
+					<h2>關於梅干</h2>
+					<p>
+						
+						教學:<br>	
+						桃園創新技術學院(應用外語系) - 美食攝影 講師<br>
+						DCView - 美食攝影/影像修片 講師<br>
+						飛肯設計學苑 - Photoshop/RAW修片 講師<br>
+						環球科技大學業界專家協同教學<br>
+						台灣旅遊攝影學會 - 攝影數位影像 講師<br>
+						元大證券攝影社 - 商品攝影 講師<br>
+						巨匠電腦 - 美工/網頁/多媒體 講師<br>
+						青創會 - 網拍攝影 講師<br><br>
+						個人著作:<br>
+						100.9　iPad2超速影像編修技法<br>
+						100.10　梅問題的超質感商品攝影手法大公開(簡)<br>
+						99.7　梅問題的超質感商品攝影手法大公開<br>
+						93.9　 Photoshop CS 中文版 技藝猶新<br>
+						92.10　 Photoshop7.0 海外版　創意設計範例<br>
+						92.7　 Photoshop7.0 中文版　創意設計範例<br>
+						91.9　 親愛的⋯我得了照慾症<br>
+						91.8　 親愛的⋯咱們自行三通<br><br>
+
+						評審/專欄:<br>
+						客家桐花季 攝影比賽 　影像技術 評審<br>
+						NowNews iOS 　專欄作家<br>
+						DigiPhoto 　專欄作家<br><br>
+						部落格：<a href="https://minwt.com" target="_blank">minwt.com</a><br>
+						粉絲頁：<a href="https://www.facebook.com/minwtfans" target="_blank">www.facebook.com/minwtfans</a><br>
+						作品集：<a href="https://www.flickr.com/photos/minwt" target="_blank">www.flickr.com/photos/minwt</a>
+					</p>	
+			</div>
+			
+		</div>
+
+		<script src="lib/jquery.min.js"></script>
+		<script src="lib/bootstrap.min.js"></script>
+		<script src="lib/masonry.pkgd.min.js"></script>
+		<script src="lib/imagesloaded.pkgd.min.js"></script>
+    <script>
+       $(function(){
+        /* 瀑布流區塊div */
+        var $container = $('.masonry');
+  
+        //當圖片讀取完畢才執行
+        $container.imagesLoaded(function (){
+          //選擇瀑布流的區塊名稱
+          $container.masonry({
+            itemSelector: '.item'
+        
+          })
+        
+        });
+      });
+    </script>
+	</body>
+	</html>
